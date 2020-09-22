@@ -60,8 +60,8 @@ void computeKeyPointsAndDesp( FRAME& frame, string detector, string descriptor )
     cv:: Ptr <cv::FeatureDetector> _detector;
     cv:: Ptr <cv::DescriptorExtractor> _descriptor;
 
-    _detector = cv::ORB::create();
-    _descriptor = cv::ORB::create();
+    if(detector == "ORB")   _detector = cv::ORB::create();
+    if(descriptor == "ORB")   _descriptor = cv::ORB::create();
 
     if (!_detector || !_descriptor)
     {
