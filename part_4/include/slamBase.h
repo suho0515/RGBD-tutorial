@@ -56,7 +56,7 @@ PointCloud:: Ptr  image2PointCloud (cv::Mat& rgb, cv::Mat& depth, CAMERA_INTRINS
 cv::Point3f point2dTo3d (cv::Point3f& point, CAMERA_INTRINSIC_PARAMETERS& camera );
 
 // computeKeyPointsAndDesp extracts key points and feature descriptors at the same time
-void  computeKeyPointsAndDesp (FRAME& frame, string detector, string descriptor );
+void computeKeyPointsAndDesp (FRAME& frame, string detector, string descriptor );
 
 // estimateMotion calculates the motion between two frames
 // Input: frame 1 and frame 2, camera internal parameters
