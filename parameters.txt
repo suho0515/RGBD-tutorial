@@ -22,9 +22,9 @@ start_index=1
 end_index=50
 
 # Directory where the data is located
-rgb_dir=/home/eh420/datasets/rgbd-slam-tutorial/pioneer_360/rgb/
+rgb_dir=/home/eh420/Documents/RGBD-tutorial/data/rgb/
 rgb_extension=.png
-depth_dir=/home/eh420/datasets/rgbd-slam-tutorial/pioneer_360/depth/
+depth_dir=/home/eh420/Documents/RGBD-tutorial/data/depth/
 depth_extension=.png
 
 # Point cloud resolution
